@@ -285,7 +285,6 @@ span {
 
 .price-card {
   background: #fff;
-
   padding: 25px;
   height: 100%;
   display: flex;
@@ -565,6 +564,15 @@ span {
 
   .price-current {
     font-size: 24px;
+  }
+
+  .paints-list-content .card {
+    width: 300px;
+    padding: 20px;
+  }
+
+  .paints-list-content ul {
+    columns: 1;
   }
 }
 
