@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Bernierd';
-  src: url('/fonts/bernierdistressed-regular.otf') format('opentype');
+  src: url('fonts/bernierdistressed-regular.otf') format('opentype');
 }
 :root {
   --main-text-color: #d68c67;
@@ -49,7 +49,7 @@ header .navbar-light .navbar-nav .nav-link:hover {
 }
 
 .main-hero {
-  background: url('/img/bg head.jpg') center / cover no-repeat;
+  background: url('img/bg head.jpg') center / cover no-repeat;
   padding-bottom: 210px;
 }
 
@@ -102,7 +102,7 @@ span {
 }
 
 .feature-card {
-  background-image: url('/img/d.png');
+  background-image: url('img/d.png');
   border: 5px solid #e7956ca2;
   padding: 25px 35px;
   height: 100%;
@@ -131,7 +131,7 @@ span {
 }
 
 .course-text {
-  background-image: url('/img/bg.jpg');
+  background-image: url('img/bg.jpg');
   padding: 35px 10px;
   border-top: 6px solid #f1c2a3;
   border-left: 6px solid #f1c2a3;
@@ -274,7 +274,7 @@ span {
 
 .price {
   padding: 100px 0;
-  background: url('/img/bg tarif.jpg') center / cover no-repeat;
+  background: url('img/bg tarif.jpg') center / cover no-repeat;
 }
 
 .price-title {

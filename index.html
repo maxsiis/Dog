@@ -526,13 +526,10 @@
           }
         });
         $('.paints-list').on('click', function () {
-          // Находим ближайший блок со списком
           const $content = $(this).siblings('.paints-list-content');
 
-          // Показываем/скрываем
           $content.collapse('toggle');
 
-          // Меняем текст кнопки (опционально)
           if ($content.hasClass('show')) {
             $(this).text('Скрыть список');
           } else {
